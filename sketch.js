@@ -32,11 +32,11 @@ if ( hasCollided(bullet,wall)){
     var damage = 0.5 * weight * speed * speed/ (thickness * thickness * thickness);
 
     if (damage > 10){
-      bullet.shapeColor  = rgb(51, 51, 0);
+      bullet.shapeColor  = "red";
     }
 
     if (damage < 10 ){
-      bullet.shapeColor = rgb(0, 51, 102);
+      bullet.shapeColor = "green";
     }
   }
 
